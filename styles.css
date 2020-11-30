@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+.nav-container{
+    height: 10%;
+    display: flex;
+    height: fit-content;
+    justify-content:space-between;
+    background-color: white;
+    overflow: hidden;
+}   
+
+.nav-container li{
+    display: inline-flex;
+    padding: 5px;
+    margin: auto;
+    border: none;
+} 
+.nav-container li a{
+    color: #f5ab21fd;
+    font-size: 22px;
+    font-family: 'roboto',sans-serif;
+}
+.logo{
+   padding: 12px;
+}
+
+#a1{
+    background-color: #ffffff;
+    height: 30%;
+}
+.name{
+    margin: 12px;
+    font-size: x-large;
+    font-family: 'roborto',serif;
+    font-weight: bolder;
+    padding: 20px;
+}
+.content-1{
+    text-align: center;
+    padding-bottom:5vh;
+    font-family: 'roborto',sans-serif;
+}
+.content-1 h1{
+    font-size: 22px;
+    padding: 12px;
+    font-family: 'roborto',sans-serif;
+}
+#a2{
+    height: 30%;
+    background-color:rgba(196, 196, 196, 0.5);
+    
+}
+.head-p{
+text-align: center;
+padding: 22px;
+font-size: 25px;
+font-family:'roborto',Georgia, 'Times New Roman', Times, serif;
+}
+.project-holder img{
+    width: 100%;
+}
+.project-holder{
+    height: 30%;
+    display: grid;
+    grid-template-columns:270px 270px 270px;
+    grid-column-gap:25px;
+    grid-row-gap:25px;
+    justify-content: center;
+    
+}
+#a3{
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+    
+}
+#a3 h3{
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    font-size: 25px;
+    font-family: 'roborto',sans-serif;
+}
+.lin{
+    margin:5px 30px ;
+    width: 90%;
+}
+#a3 ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lin a{
+    color: #ffffff;
+    padding: 3px;
+    font-family:'roborto',Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgba(247, 176, 44, 0.322);
+    text-align: center;  
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin:22px;
+}
+.icons img{
+    height: 35px;
+    margin: 2px 25px;
+    text-align: center;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-size:20px;
+    font-family:'roborto',Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px ;
+}
