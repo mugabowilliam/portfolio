@@ -13,6 +13,7 @@ body{
 }
 .logo{
    padding: 12px;
+   align-self: flex-start;
 }
 
 #a1{
@@ -122,7 +123,7 @@ font-family:'roborto',Georgia, 'Times New Roman', Times, serif;
 /*nav styling*/
 .nav ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
@@ -211,7 +212,7 @@ font-family:'roborto',Georgia, 'Times New Roman', Times, serif;
     margin: 22px
 }
 .ic2 h1{
-font-size: medium;
+font-size: x-large;
 font-weight: bold;
 font-family: 'roboto',sans-serif;
 padding: 15px;
@@ -237,7 +238,59 @@ padding: 15px;
 .location h1{
     font-family: 'roboto',sans-serif;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: x-large;
     padding: 5px;
 }
+/* styling for the blog page */
+.head-blog{
+    background-image: url(./images/Blog-1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.john h1{
+    position: relative;
+    padding: 15px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'roborto',sans-serif;
+}
+.c-btn button{
+    display: flex;
+    margin:;
+}
+
+/* about page */
+.content-container{
+    height:outo;
+    padding: 25px;
+    margin: 50px;
+    text-align: center;
+    border: 5px solid orangered;
+    background-color: #a9a9a996;
+}
+#ttl{
+    background-position: center;
+    color: rgb(255,56,0);
+    padding: 12px;
+    margin: 30px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'roborto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-wrap{
+    border: 2px solid red;
+    display: ruby-text-container;
+    padding: inherit;
+    margin: inherit;
+    background-color: ivory;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    color: rgba(6, 18, 179, 0.986)
+}
+
 
