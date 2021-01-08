@@ -265,7 +265,6 @@ padding: 15px;
 .c-btn :hover{
     background-color: cadetblue;
 }
-#
 
 /* about page */
 .content-container{
@@ -297,6 +296,38 @@ padding: 15px;
     font-weight: inherit;
     font-family: inherit;
     color: rgba(6, 18, 179, 0.986)
+}
+
+/* styling of the blocontent page */
+#blog{
+    background-color: lightgoldenrodyellow;
+    background-size: cover;
+    height: auto;
+}
+.container-blog{
+    padding: 8px;
+    text-align: center;
+    border: 2px solid red;
+    margin: 12px;
+}
+.image{ 
+    margin: 12px;
+    padding: inherit;
+    line-height: 2vh;
+}
+#contant{
+    line-height: 4vh;
+    padding: 12px;
+    text-align: center;
+    font-family: 'roborto',sans-serif;
+    font-weight: lighter;
+    color: rgb(13, 10, 192);
+}
+
+.date{
+    color: rgba(146, 7, 7, 0.986);
+    padding: 12px;
+    margin: inherit;
 }
 
 @media screen and (max-width: 320px){
@@ -401,11 +432,69 @@ padding: 15px;
     }    
 }
 @media screen and (max-width: 801px){
-    
+    .logo{
+        padding: 18px;
+        position: relative;
+        left: 0;
+     }
+    .nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+    .nav .item a{
+        color: orangered;
+       list-style: none;
+       font-size: 18px;
+       font-family: 'roboto',sans-serif;
+    }
+    .white a{
+        color: white;
+        font-size: 18 px;
+        font-family: 'roboto',sans-serif;
+        font-weight:lighter;
+    }
+    .project-holder{
+        height: 30%;
+        display: grid;
+        grid-template-columns:140px 140px 140px;
+        grid-column-gap:18px;
+        grid-row-gap:18px;
+        justify-content: center;
+    }    
 }
+
 @media screen and (max-width: 1025px){
-    
-}
-@media screen and (max-width: 1281px){
-    
+    .logo{
+        padding: 15px;
+        position: relative;
+        left: 0;
+     }
+    .nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+    .nav .item a{
+        color: orangered;
+       list-style: none;
+       font-size: 20px;
+       font-family: 'roboto',sans-serif;
+    }
+    .white a{
+        color: white;
+        font-size: 20px;
+        font-family: 'roboto',sans-serif;
+        font-weight:lighter;
+    }
+    .project-holder{
+        height: 30%;
+        display: grid;
+        grid-template-columns:150px 150px 150px;
+        grid-column-gap:22px;
+        grid-row-gap:22px;
+        justify-content: center;
+    }    
 }
